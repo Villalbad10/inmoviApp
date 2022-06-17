@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --primaryColor: #00C194;
+}
+
+body {
+    background-color: #F6F6F6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-left: 2.5rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+.activo {
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+    width: 3.8rem;
+}
+.icon{
+    cursor: pointer;
+}
+
+.num {
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    color: white;
+    margin-left: -.5rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.add {
+    margin-left: 2.5rem;
+}
+
+.banner {
+    background-image: url('../img/Hero\ Section.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo {
+    margin-top: 5%;
+    width: 30rem;
+}
+
+.sell {
+    border: 1px solid var(--primaryColor);
+    background-color: var(--primaryColor);
+    border-radius: 0.5rem;
+    color: white;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.btns {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: black;
+    margin-top: 2rem;
+    padding: .5rem;
+    font-weight: bolder;
+}
+
+.buscador {
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: -.5rem;
+    width: 35rem;
+    padding: 1rem;
+    position: absolute;
+    z-index: 2;
+    color: var(--primaryColor);
+}
+
+.buscador input {
+    border: none;
+    width: 16rem;
+    outline: none;
+}
+
+.buscador select {
+    opacity: .6;
+    outline: none;
+    border: none;
+    width: 16rem;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 3.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: white;
+    height: 16rem;
+}
+
+.tarjeta:hover {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.tarjeta p {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.filTarjetas {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+.propiedades {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.spin {
+    margin-top: 5rem;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 5rem;
+}
+
+.allPropiedades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.propiedad {
+    text-align: justify;
+    background-color: white;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fondo img {
+    height: 12rem;
+    width: 20rem;
+}
+
+.comprar {
+    color: white;
+    margin-top: -11rem;
+    margin-left: 1.5rem;
+}
+
+.comprar button {
+    border: 1px solid var(--primaryColor);
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.comprar button:hover {
+    border: 1px solid var(--primaryColor);
+    background-color: white;
+    color: var(--primaryColor);
+}
+
+.comprar h5 {
+    font-weight: bold;
+    margin-top: 6rem;
+}
+
+.description {
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+}
+
+.description p:nth-child(1) {
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+.description h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.description p span {
+    font-size: 0.8rem;
+}
+
+.camas {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.camas img {
+    margin-right: 0.4rem;
+}
+
+.camas span {
+    margin-right: .7rem;
+}
+
+.agentes {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.agente {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.tarjetaAgente {
+    width: 14rem;
+    border-radius: .5rem;
+    margin-right: 2rem;
+    padding: .5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.tarjetaAgente p {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.agename {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--primaryColor);
+}
+
+.otro {
+    margin-top: 8rem;
+}
+
+footer {
+    margin-top: 8rem;
+    background-color: #24334A;
+}
+
+.registro {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.inputRegistro {
+    border: none;
+}
+
+.registrar {
+    display: block;
+    margin: 2rem auto;
+    border: 1px solid var(--primaryColor);
+    background-color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.registrar:hover {
+    background-color: white;
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.detalle {
+    margin-top: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+            minmax(200px, 1fr));
+}
+
+.detalle button {
+    border: 1px solid var(--primaryColor);
+    border-radius: 1.3rem;
+    background-color: var(--primaryColor);
+    color: white;
+    margin-bottom: 1rem;
+    width: 12rem;
+}
+
+.detalle button:hover {
+    border-radius: 1.3rem;
+    background-color: white;
+    color: var(--primaryColor);
+    margin-bottom: 1rem;
+    width: 12rem;
+}
+
+.detalles {
+    font-weight: bold;
+}

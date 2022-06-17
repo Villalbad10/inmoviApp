@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Realmod - Company</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/Logo.png" alt=""></a>
+                <button class="navbar-toggler shadow-sm" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link activo" aria-current="page" href="#">Home</a>
+                            <hr>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Property
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/registro.html">Sign In</a></li>
+                                <li><a class="dropdown-item" href="./pages/inicio.html">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                        <li>
+                            <img class="icon imgFav" src="./img/Group 45.png" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop" alt=""><span class="num nFav">0</span>
+                        </li>
+                        <li>
+                            <img class="icon imgCar" src="./img/Group 46.png" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropCar" alt=""><span class="num nCar">0</span>
+                        </li>
+                        <li>
+                            <a href="" class="add"> <img src="./img/Group 1.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="modaFav">
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Favoritos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body mfav">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdropCar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Carrito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body mcar">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <img class="titulo img-fluid" src="./img/Text.png" alt="">
+            <div class="botones">
+                <button class="sell">Sell</button>
+                <button class="btns">Buy</button>
+                <button class="btns">Rent</button>
+            </div>
+            <div class="buscador shadow">
+                <input type="text" placeholder="Enter keyword here...">
+                | <select name="" id="">
+                    <option value="">Select Location</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="filTarjetas container">
+        <img src="./img/featuredText.png" alt="">
+        <div class="filtros">
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 47.png" alt="">
+                <p>Parkink Space</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm piscina">
+                <img src="./img/Group 48.png" alt="">
+                <p>Swimming Pool</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 49.png" alt="">
+                <p>Privat Security</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 50.png" alt="">
+                <p>Medical Center</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 51.png" alt="">
+                <p>Library Area</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 52.png" alt="">
+                <p>King Size Beds</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 53.png" alt="">
+                <p>Smart Homes</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+            <div class="tarjeta shadow-sm">
+                <img src="./img/Group 53.png" alt="">
+                <p>Kind's Playland</p>
+                <img src="./img/Group 14.png" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="propiedades container">
+        <img class="img-fluid" src="./img/OurFeatures.png" alt="">
+        <div class="allPropiedades">
+            <div class="spinner-grow text-success spin" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="agentes container">
+        <img src="./img/textAgent.png" alt="">
+        <div class="agente">
+            <section class="tarjetaAgente shadow-sm">
+                <img class="img-fluid" src="./img/Rectangle 47.png" alt="">
+                <p>Andren Willium</p>
+                <span class="agename">Sweet Home</span><br>
+                <img src="./img/fi-rr-call-outgoing.png" alt=""><span>call: +121 511 4522</span>
+            </section>
+            <section class="tarjetaAgente shadow-sm">
+                <img class="img-fluid" src="./img/Rectangle 2.png" alt="">
+                <p>Polly Martzinger</p>
+                <span class="agename">Sweet Home</span><br>
+                <img src="./img/fi-rr-call-outgoing.png" alt=""><span>call: +121 511 4522</span>
+            </section>
+            <section class="tarjetaAgente shadow-sm">
+                <img class="img-fluid" src="./img/Rectangle 3.png" alt="">
+                <p>Sarah Boysen</p>
+                <span class="agename">Sweet Home</span><br>
+                <img src="./img/fi-rr-call-outgoing.png" alt=""><span>call: +121 511 4522</span>
+            </section>
+            <section class="tarjetaAgente shadow-sm">
+                <img class="img-fluid" src="./img/Rectangle 4.png" alt="">
+                <p>Mac. Willium</p>
+                <span class="agename">Sweet Home</span><br>
+                <img src="./img/fi-rr-call-outgoing.png" alt=""><span>call: +121 511 4522</span>
+            </section>
+
+        </div>
+
+    </section>
+
+    <section class="container otro">
+        <div class="row">
+            <div class="col-md-6 sm-12 fila1">
+                <img class="img-fluid" src="./img/Group 58.png" alt="">
+            </div>
+            <div class="col-md-6 sm-12 fila2">
+                <img class="img-fluid" src="./img/Group 57.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="">
+        <div class="container ">
+            <div class="row mt-5">
+                <div class="col-md-3 sm-12 mt-4">
+                    <img class="img-fluid" src="./img/f1.png" alt="">
+                </div>
+                <div class="col-md-3 sm-12 mt-4">
+                    <img class="img-fluid" src="./img/f2.png" alt="">
+                </div>
+                <div class="col-md-3 sm-12 mt-4">
+                    <img class="img-fluid" src="./img/f3.png" alt="">
+                </div>
+                <div class="col-md-3 sm-12 mt-4">
+                    <img class="img-fluid" src="./img/f4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>
